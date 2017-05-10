@@ -13,20 +13,26 @@
         <B>TODO</B>
     </h1>
 
-    <body>
-        <script>
-            //Modele de donnee
-            let liste = ['tiltle', 'comment'];
+    <form method="POST" action="#">
+        <label for="title">title: </label>
+        <input id="title" type="text">
+        <label for="comment">comment</label>
+        <input id="comment" type="text" />
+        <input type="submit" value="submit" id="button" />
+    </form>
+    <script>
+        //Modele de donnee
+        let liste = ['tiltle', 'comment'];
 
-            function ajout(element) {
-                liste.push(element);
-            }
+        function ajout(element) {
+            liste.push(element);
+        }
 
-            function supp(element) {
-                liste.splice(element, 1);
-            } //affichage
-        </script>
-    </body>
+        function supp(element) {
+            liste.splice(element, 1);
+        } //affichage
+    </script>
+</body>
 
 
 
