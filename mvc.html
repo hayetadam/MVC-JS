@@ -31,6 +31,16 @@
         function supp(element) {
             liste.splice(element, 1);
         } //affichage
+        for (i = 0; i < list.length; i++) {
+            let ul = document.createElement("ul");
+            let li = document.createElement("li");
+            li.textContent = liste[i];
+            ul.appendChild(li);
+            document.body.appendChild(ul);
+
+
+
+        }
     </script>
 </body>
 
