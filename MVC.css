@@ -1,5 +1,4 @@
 body {
-    min-height: 100vh;
     background: url("http://fr.cdn.v5.futura-sciences.com/buildsv6/images/mediumoriginal/3/b/6/3b6991cd9f_49136_pleiades-cnes.jpg");
     display: flex;
     flex-direction: column;
